@@ -32,22 +32,22 @@ console.log(primero); // 'rojo'
 
 //5
 let numeros2 = [10, 20, 30, 20, 40];
-let indice = numeros.indexOf(20); // 1
-let indiceDesde2 = numeros.indexOf(20, 2); // 3
+let indice = numeros2.indexOf(20); // 1
+let indiceDesde2 = numeros2.indexOf(20, 2); // 3
 console.log(indice); // 1
 console.log(indiceDesde2); // 3
 
 //6
-let arreglo5 = [1, 2, 3];
-console.log(arreglo.length); // 3
-arreglo.length = 1; // Trunca a [1]
-arreglo.length = 5; // Extiende a [1, undefined, undefined,
+let arreglo6 = [1, 2, 3];
+console.log(arreglo6.length); // 3
+arreglo6.length = 1; // Trunca a [1]
+arreglo6.length = 5; // Extiende a [1, undefined, undefined,
 //undefined, undefined];
 
 //7
 let numeros3 = [3, 1, 4, 2];
-numeros.sort((a, b) => a - b); // Orden ascendente
-console.log(numeros); // [1, 2, 3, 4]
+numeros3.sort((a, b) => a - b); // Orden ascendente
+console.log(numeros3); // [1, 2, 3, 4]
 
 //8
 let palabras = ['hola', 'mundo'];
@@ -61,56 +61,56 @@ console.log(combinado); // [1, 2, 3, 4, 5]
 
 //10
 let colores2 = ['rojo', 'verde', 'azul'];
-colores.forEach(color => console.log(color));
+colores2.forEach(color => console.log(color));
 // Imprime: rojo, verde, azul
 
 //11
 let numeros4 = [1, 2, 3];
-let dobles = numeros.map(x => x * 2);
+let dobles = numeros4.map(x => x * 2);
 console.log(dobles); // [2, 4, 6]
 
 //12
 let numeros5 = [1, 2, 3, 4];
-let pares = numeros.filter(x => x % 2 === 0);
+let pares = numeros5.filter(x => x % 2 === 0);
 console.log(pares); // [2, 4]
 
 //13
 let numeros6 = [1, 2, 3, 4];
-let suma = numeros.reduce((acc, curr) => acc + curr, 0);
+let suma = numeros6.reduce((acc, curr) => acc + curr, 0);
 console.log(suma); // 10
 
 //14
 let numeros7 = [1, 2, 3, 4];
-let hayPares = numeros.some(x => x % 2 === 0);
+let hayPares = numeros7.some(x => x % 2 === 0);
 console.log(hayPares); // true
 
 //15
 let numeros8 = [2, 4, 6, 8];
-let todosPares = numeros.every(x => x % 2 === 0);
+let todosPares = numeros8.every(x => x % 2 === 0);
 console.log(todosPares); // true
 
 //16
 let numeros9 = [1, 2, 3, 4];
-let encontrado = numeros.find(x => x > 2);
+let encontrado = numeros9.find(x => x > 2);
 console.log(encontrado); // 3
 
 //17
 let numeros10 = [1, 2, 3, 4];
-let indice2 = numeros.findIndex(x => x > 2);
+let indice2 = numeros10.findIndex(x => x > 2);
 console.log(indice); // 2
 
 //18
 let colores3 = ['rojo', 'verde', 'azul'];
-let iterador = colores.entries();
+let iterador = colores3.entries();
 console.log([...iterador]);
 // [[0, 'rojo'], [1, 'verde'], [2, 'azul']]
 
 //19
 let colores4 = ['rojo', 'verde', 'azul'];
-let iterador2 = colores.keys();
-console.log([...iterador]); // [0, 1, 2]
+let iterador2 = colores4.keys();
+console.log([...iterador2]); // [0, 1, 2]
 
 //20
 let colores5 = ['rojo', 'verde', 'azul'];
-let iterador3 = colores.values();
-console.log([...iterador]); // ['rojo', 'verde', 'azul']
+let iterador3 = colores5.values();
+console.log([...iterador3]); // ['rojo', 'verde', 'azul']
