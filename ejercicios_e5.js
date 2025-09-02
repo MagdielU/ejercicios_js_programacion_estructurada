@@ -114,3 +114,8 @@ console.log([...iterador2]); // [0, 1, 2]
 let colores5 = ['rojo', 'verde', 'azul'];
 let iterador3 = colores5.values();
 console.log([...iterador3]); // ['rojo', 'verde', 'azul']
+
+let colores6 = ['rojo', 'verde', 'azul'];
+for (let i = 0; i < colores6.length; i++){
+    console.log(colores6[i]);
+}
